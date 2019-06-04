@@ -28,7 +28,7 @@ const itemsList = [
 ]
 
 export default () => {
-  const [ checked, setChecked ] = useState([ 0 ]);
+  const [ checked, setChecked ] = useState([]);
 
   useEffect(() => {
     return () => {
