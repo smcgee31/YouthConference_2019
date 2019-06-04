@@ -14,7 +14,6 @@ const itemsList = [
   'Deodorant',
   'Shampoo',
   'Toothbrush / toothpaste',
-  'Lotion',
   'Comb / brush',
   'Lotion',
   'Sunscreen',
@@ -30,6 +29,12 @@ const itemsList = [
 
 export default () => {
   const [ checked, setChecked ] = useState([ 0 ]);
+
+  useEffect(() => {
+    return () => {
+      window.localStorage.setItem('checked', checked)
+    };
+  }, [ checked ])
 
   const handleToggle = value => () => {
     const currentIndex = checked.indexOf(value);
