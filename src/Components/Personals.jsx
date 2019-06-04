@@ -1,30 +1,73 @@
-import React from 'react'
-import { Grid, Card, Typography, CardContent } from '@material-ui/core'
+import React, { useState, useEffect } from 'react'
+import { Grid, Card, Typography, CardContent, Checkbox, List, ListItem, ListItemText } from '@material-ui/core'
+
+const itemsList = [
+  'Large towel',
+  'Hand towel',
+  'Washcloth',
+  'PJs',
+  'Underwear',
+  'Comfy shoes',
+  'Socks (2 pair min)',
+  'Athletic shoes',
+  'Soap',
+  'Deodorant',
+  'Shampoo',
+  'Toothbrush / toothpaste',
+  'Lotion',
+  'Comb / brush',
+  'Lotion',
+  'Sunscreen',
+  'Items to "get ready"',
+  'Medications (your leader needs to know)',
+  'Scriptures',
+  'Journal',
+  'Pen',
+  'Water Bottle (to fill)',
+  'Camera (if desired)',
+  'Clothes (EFY standards)',
+]
 
 export default () => {
+  const [ checked, setChecked ] = useState([ 0 ]);
+
+  const handleToggle = value => () => {
+    const currentIndex = checked.indexOf(value);
+    const newChecked = [ ...checked ];
+
+    if (currentIndex === -1) {
+      newChecked.push(value);
+    } else {
+      newChecked.splice(currentIndex, 1);
+    }
+
+    setChecked(newChecked);
+  };
+
   return (
     <Grid item xs={ 12 } sm={ 6 } style={ { padding: 6 } }>
       <Card style={ { padding: 12 } }>
         <Typography variant="h4">Items you need</Typography>
         <CardContent>
-          <ul style={ { listStyle: 'none' } }>
-            <li><input type="checkbox" />Large towel, hand towel, and washcloth</li>
-            <li><input type="checkbox" />PJs</li>
-            <li><input type="checkbox" />Underwear</li>
-            <li><input type="checkbox" />Comfy shoes</li>
-            <li><input type="checkbox" />At least 2 pair of socks</li>
-            <li><input type="checkbox" />Athletic shoes</li>
-            <li><input type="checkbox" />Soap, deodorant, shampoo</li>
-            <li><input type="checkbox" />Lotion, toothbrush, toothpaste</li>
-            <li><input type="checkbox" />Comb/brush, and items for "getting ready"</li>
-            <li><input type="checkbox" />Medications (your leader needs to know about this!)</li>
-            <li><input type="checkbox" />Scriptures</li>
-            <li><input type="checkbox" />Journal</li>
-            <li><input type="checkbox" />Pen</li>
-            <li><input type="checkbox" />Water bottle to fill</li>
-            <li><input type="checkbox" />Camera if desired</li>
-            <li><input type="checkbox" />Clothes (review EFY standards)</li>
-          </ul>
+          <List style={ { listStyle: 'none' } }>
+            { itemsList.map((item) => {
+              const labelId = `checkbox-list-label-${ item }`;
+
+              return (
+                <ListItem key={ item } dense button onClick={ handleToggle(item) }>
+                  <Checkbox
+                    edge="start"
+                    color="primary"
+                    checked={ checked.indexOf(item) !== -1 }
+                    tabIndex={ -1 }
+                    disableRipple
+                    inputProps={ { 'aria-labelledby': labelId } }
+                  />
+                  <ListItemText id={ labelId } primary={ `${ item }` } />
+                </ListItem>
+              )
+            }) }
+          </List>
         </CardContent>
       </Card>
     </Grid>

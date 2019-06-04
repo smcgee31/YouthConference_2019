@@ -6,7 +6,7 @@ export default () => {
     <AppBar position="static">
       <Toolbar style={ { justifyContent: "center" } }>
         <Typography variant="h3" color="inherit" >
-          2019 Pleasant Grove Youth Conference
+          2019 Pleasant Grove West Stake Youth Conference
         </Typography>
       </Toolbar>
     </AppBar>
