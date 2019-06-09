@@ -1,51 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Grid, Card, Typography, CardContent, Checkbox, List, ListItem, ListItemText } from '@material-ui/core'
 
-const itemsList = [
-  'Large towel',
-  'Hand towel',
-  'Washcloth',
-  'PJs',
-  'Underwear',
-  'Comfy shoes',
-  'Socks (2 pair min)',
-  'Athletic shoes',
-  'Soap',
-  'Deodorant',
-  'Shampoo',
-  'Toothbrush / toothpaste',
-  'Comb / brush',
-  'Lotion',
-  'Sunscreen',
-  'Items to "get ready"',
-  'Medications (your leader needs to know)',
-  'Scriptures',
-  'Journal',
-  'Pen',
-  'Water Bottle (to fill)',
-  'Camera (if desired)',
-  'Clothes (EFY standards)',
-]
+import itemsList from "../itemsList";
+import useLocalStorage from '../useLocalStorage';
+
 
 export default () => {
-  const initialChecked = () => window.localStorage.getItem('checked') || [];
-  const [ checked, setChecked ] = useState(initialChecked);
-
-  useEffect(() => {
-    return () => {
-      window.localStorage.setItem('checked', checked)
-    };
-  }, [ checked ])
+  const [ checked, setChecked ] = useLocalStorage('checked', itemsList);
 
   const handleToggle = value => () => {
-    const currentIndex = checked.indexOf(value);
-    const newChecked = [ ...checked ];
-
-    if (currentIndex === -1) {
-      newChecked.push(value);
-    } else {
-      newChecked.splice(currentIndex, 1);
-    }
+    const newChecked = { ...checked };
+    newChecked[ value ] = checked[ value ] === false ? true : false;
 
     setChecked(newChecked);
   };
@@ -56,7 +21,7 @@ export default () => {
         <Typography variant="h4">Items you need</Typography>
         <CardContent>
           <List style={ { listStyle: 'none' } }>
-            { itemsList.map((item) => {
+            { Object.keys(itemsList).map((item) => {
               const labelId = `checkbox-list-label-${ item }`;
 
               return (
@@ -64,7 +29,7 @@ export default () => {
                   <Checkbox
                     edge="start"
                     color="primary"
-                    checked={ checked.indexOf(item) !== -1 }
+                    checked={ checked[ item ] }
                     tabIndex={ -1 }
                     disableRipple
                     inputProps={ { 'aria-labelledby': labelId } }
