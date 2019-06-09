@@ -28,7 +28,8 @@ const itemsList = [
 ]
 
 export default () => {
-  const [ checked, setChecked ] = useState([]);
+  const initialChecked = () => window.localStorage.getItem('checked') || [];
+  const [ checked, setChecked ] = useState(initialChecked);
 
   useEffect(() => {
     return () => {
