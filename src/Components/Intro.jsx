@@ -4,14 +4,14 @@ import { Card, CardContent, Typography } from '@material-ui/core'
 export default () => {
   return (
     <Card style={ { padding: 12, margin: 6 } }>
-      <Typography variant="h4">Trip Info</Typography>
+      <Typography variant="h4">Campout Info</Typography>
       <CardContent style={ { marginLeft: 12 } }>
-        <p>We will be going to the Rockin’ R Ranch in Antimony, Utah!</p>
-        <p>We will meet at the Stake Center at 7am sharp on Thursday the 6th of June! The buses will be leaving at approx. 7:15.</p>
-        <p>We will have a small breakfast and get on the buses. All youth will need to ride the buses up. There will need to be 1 leader per ward on the buses. If your son/daughter wants to bring snacks on the bus, make sure that they know that their garbage needs to be carried off the bus with them in a garbage sack (not on the floor). We will make sure a leader on the bus has garbage bags.</p>
-        <p>Once we arrive, we will check in. The rooms will be assigned before we arrive at the Ranch. There will be an orientation soon after we arrive.</p>
-        <p>Then the activities begin....Horseback riding, great meals, awesome speakers, lawn games, line dancing, river rafting, ward free time, volleyball, a small rodeo, a lip sync battle....the list goes on!</p>
-        <p>After our time at the Rockin’ R Ranch, we will be returning home on Saturday the 8th to the Stake Center by 3:30.</p>
+        <p>Camp Helaman will be for all young men in the Stake and all deacons, teachers and priests are invited to participate.  This 3-day camp out will replace the stake scout camp for 2019.</p>
+        <p>We will be leaving at 4:30 on Wednesday the 17th of July and returning Saturday the 20th.</p>
+        <p>On Wednesday we will arrive and set up camp, and the Stake will provide dinner that night.</p>
+        <p>Thursday and Friday we will be cooking all our own meals but the Stake will be in charge of all activities.</p>
+        <p>Saturday, the Stake will provide the breakfast, then we will break camp and return home. We should arrive back around noon.</p>
+        <p>Some of the activities may include Archery, Pioneering course or competition, Fire building skills, Wilderness survival classes (and have the boys build a shelter to sleep in one night), First Aid, Hiking, Knots, and fun team-building activities</p>
       </CardContent>
     </Card>
   )
