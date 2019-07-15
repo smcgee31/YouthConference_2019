@@ -17,5 +17,4 @@ export default {
   'Medications (your leader needs to know)': false,
   'Scriptures (optional)': false,
   'Camera (if desired)': false,
-  'Clothes (EFY standards)': false,
 };
