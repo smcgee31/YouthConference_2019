@@ -14,81 +14,52 @@ export default () => {
         <CardContent style={{ marginLeft: 12 }}>
           <br />
 
-          <Typography variant="h6">Wednesday</Typography>
-          <p>
-            <strong>Leave from the Stake Center:</strong> approx. 6pm
-          </p>
-          <p>
-            <strong>Dinner:</strong> Provided by the Stake. Devotional to follow dinner
-          </p>
-
           <div style={{ marginBottom: 48 }}>
-            <Typography variant="h6">Thursday</Typography>
-            <p>
-              <strong>Morning Devotional:</strong> Provided XXXX
-            </p>
-            <p>
-              <strong>Breakfast:</strong> Provided by each Ward
-            </p>
-            <p>
-              <strong>Activity:</strong> XXXXX
-            </p>
-            <p>
-              <strong>Free time:</strong> XXXX
-            </p>
-            <p>
-              <strong>Lunch:</strong> Provided by each Ward
-            </p>
-            <p>
-              <strong>Activity:</strong> XXXXX
-            </p>
-            <p>
-              <strong>Free time:</strong> XXXX
-            </p>
-            <p>
-              <strong>Dinner:</strong> Provided by each Ward. Devotional to follow dinner
-            </p>
+            <Typography variant="h6">
+              <strong>Wednesday</strong>
+            </Typography>
+            <Typography>
+              5:00 PM: Meet at the Stake Center (leave as soon as everyone is ready!)
+            </Typography>
+            <Typography>Dinner: Provided by the Stake. Devotional to follow dinner</Typography>
+            <Typography>8:00 PM: Fireside by President Gilbert</Typography>
           </div>
 
           <div style={{ marginBottom: 48 }}>
-            <Typography variant="h6">Friday</Typography>
-            <p>
-              <strong>Morning Devotional:</strong> Provided XXXX
-            </p>
-            <p>
-              <strong>Breakfast:</strong> Provided by each Ward
-            </p>
-            <p>
-              <strong>Activity:</strong> XXXXX
-            </p>
-            <p>
-              <strong>Free time:</strong> XXXX
-            </p>
-            <p>
-              <strong>Lunch:</strong> Provided by each Ward
-            </p>
-            <p>
-              <strong>Activity:</strong> XXXXX
-            </p>
-            <p>
-              <strong>Free time:</strong> XXXX
-            </p>
-            <p>
-              <strong>Dinner:</strong> Provided by each Ward. Devotional to follow dinner
-            </p>
+            <Typography variant="h6">
+              <strong>Thursday</strong>
+            </Typography>
+            <Typography>Morning Devotional: Provided XXXX</Typography>
+            <Typography>Breakfast: Provided by each Ward</Typography>
+            <Typography>Activity: XXXXX</Typography>
+            <Typography>Free time: XXXX</Typography>
+            <Typography>Lunch: Provided by each Ward</Typography>
+            <Typography>Activity: XXXXX</Typography>
+            <Typography>Free time: XXXX</Typography>
+            <Typography>Dinner: Provided by each Ward. Devotional to follow dinner</Typography>
           </div>
 
           <div style={{ marginBottom: 48 }}>
-            <Typography variant="h6">Saturday</Typography>
-            <p>
-              <strong>Morning Devotional:</strong> Provided XXXX
-            </p>
-            <p>
-              <strong>Breakfast:</strong> Provided by the Stake
-            </p>
-            <p>
-              <strong>Break Camp and head home</strong>
-            </p>
+            <Typography variant="h6">
+              <strong>Friday</strong>
+            </Typography>
+            <Typography>Morning Devotional: Provided XXXX</Typography>
+            <Typography>Breakfast: Provided by each Ward</Typography>
+            <Typography>Activity: XXXXX</Typography>
+            <Typography>Free time: XXXX</Typography>
+            <Typography>Lunch: Provided by each Ward</Typography>
+            <Typography>Activity: XXXXX</Typography>
+            <Typography>Free time: XXXX</Typography>
+            <Typography>Dinner: Provided by each Ward. Devotional to follow dinner</Typography>
+          </div>
+
+          <div style={{ marginBottom: 48 }}>
+            <Typography variant="h6">
+              <strong>Saturday</strong>
+            </Typography>
+            <Typography>Morning Devotional: Provided XXXX</Typography>
+            <Typography>Breakfast: Provided by the Stake</Typography>
+            <Typography>Break Camp and head home</Typography>
           </div>
         </CardContent>
       </Card>
