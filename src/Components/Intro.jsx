@@ -19,12 +19,10 @@ export default () => {
           will be by each Ward on their own.
         </p>
         <p>
-          There is a schedule of events that includes some "free time" that the boys were interested
-          in but also plenty of spiritual time as a group that they were also interested in.
-        </p>
-        <p>
-          Saturday, the Stake will provide the breakfast, then we will break camp and return home.
-          We should arrive back early afternoon.
+          The daily schedule is below and will give you an idea of how each day will likely proceed.
+          As directed by the Church, this camp was planned by our young men and we as Stake Young
+          Men's Presidency are highly impressed with their desire for good wholesome activities
+          including their desire for several spiritual activities.
         </p>
         <p>
           Water is an issue this year. There are spigots in the parks but it is preferred that
