@@ -18,7 +18,7 @@ export default () => {
             <Typography>
               5:00 PM: Meet at the Stake Center (leave as soon as everyone is ready!)
             </Typography>
-            <Typography>Dinner: Provided by the Stake. Devotional to follow dinner</Typography>
+            <Typography>7:00 PM: Dinner provided by the Stake.</Typography>
             <Typography>8:00 PM: Fireside by President Gilbert</Typography>
           </div>
 
@@ -30,7 +30,7 @@ export default () => {
             <Typography>10:00 AM: Scavenger hunt during hike (details to be provided)</Typography>
             <Typography>12:00 PM: Lunch</Typography>
             <Typography>
-              1:00 PM: Scripture Study class and Spiritual and Business life balance
+              1:00 PM: Scripture Study class / Spiritual and Business life balance
             </Typography>
             <Typography>2:00 PM: Down time for games at camp</Typography>
             <Typography>5:00 PM: TikTok Skit Challenge (Theme: New Perspectives)</Typography>
