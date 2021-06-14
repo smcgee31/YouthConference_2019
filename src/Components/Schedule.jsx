@@ -7,9 +7,8 @@ export default () => {
       <Card style={{ padding: 12 }}>
         <Typography variant="h4">Schedule</Typography>
         <p>
-          The Young Men have many activities and many times of personal free time. These activities
-          and times could change. Fishing and swimming will be available. Anyone who would like to
-          fish will need to bring their fishing license, pole, bait, and tackle.
+          Fishing and swimming will be available on Friday. Anyone who would like to fish will need
+          to bring their fishing license, pole, bait, and tackle.
         </p>
         <CardContent style={{ marginLeft: 12 }}>
           <div style={{ marginBottom: 48 }}>
