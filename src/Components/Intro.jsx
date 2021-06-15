@@ -20,13 +20,17 @@ export default () => {
           will be by each Ward on their own.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
+          Also be aware that there is a ban on campfires right now so take that into considerations
+          for cooking and evening activities.
+        </Typography>
+        <Typography style={{ marginBottom: 16 }}>
           The daily schedule is below and will give you an idea of how each day will likely proceed.
           As directed by the Church, this camp was planned by our young men and we as the Stake
           Young Men's Presidency are highly impressed with their desire for good wholesome
           activities including their desire for several spiritual activities.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          Water is an issue this year. There are spigots in the parks but it is preferred that
+          Water is also an issue this year. There are spigots in the parks but it is preferred that
           campers try to provide their own water. So, if each Ward could bring as much water as
           possible that would be a great help!
         </Typography>
