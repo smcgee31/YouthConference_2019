@@ -20,7 +20,7 @@ export default () => {
           will be by each Ward on their own.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          <strong>!!</strong> Also be aware that there is a <strong>ban</strong> on campfires right
+          <strong>!!</strong> Also be aware that there is a <strong>ban on campfires</strong> right
           now so take that into considerations for cooking and evening activities.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
