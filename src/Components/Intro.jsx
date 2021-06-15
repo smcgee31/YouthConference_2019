@@ -20,8 +20,8 @@ export default () => {
           will be by each Ward on their own.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          !! Also be aware that there is a ban on campfires right now so take that into
-          considerations for cooking and evening activities.
+          <strong>!!</strong> Also be aware that there is a <strong>ban</strong> on campfires right
+          now so take that into considerations for cooking and evening activities.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           The daily schedule is below and will give you an idea of how each day will likely proceed.
