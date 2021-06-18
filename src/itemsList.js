@@ -25,6 +25,7 @@ export default {
   'Swim suit (no cut-offs)': false,
   'Sun screen': false,
   'Water Bottle or Canteen and Cup': false,
+  'Mess kit or dishes and utensils for meals': false,
   Scriptures: false,
   'Spiral Notebooks': false,
   'Pen or Pencil': false,
