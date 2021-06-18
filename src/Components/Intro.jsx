@@ -20,22 +20,18 @@ export default () => {
           will be by each Ward on their own.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          Also be aware that there is a ban on campfires right now so take that into considerations
-          for cooking and evening activities.
-        </Typography>
-        <Typography style={{ marginBottom: 16 }}>
           <strong>!! FIRE UPDATE !!</strong> The camp has approved fire rings so we can have
           campfires but it will be only with adult leader discretion and supervision.
+        </Typography>
+        <Typography style={{ marginBottom: 16 }}>
+          <strong>!! WATER UPDATE !!</strong> Bring water containers and some water but there are
+          water spigots at the campsite for us to use.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           The daily schedule is below and will give you an idea of how each day will likely proceed.
           As directed by the Church, this camp was planned by our young men and we as the Stake
           Young Men's Presidency are highly impressed with their desire for good wholesome
           activities including their desire for several spiritual activities.
-        </Typography>
-        <Typography style={{ marginBottom: 16 }}>
-          <strong>!! WATER UPDATE !!</strong> Bring water containers and some water but there are
-          water spigots at the campsite for us to use.
         </Typography>
         <Typography style={{ marginBottom: -20 }}>* check back often for updates</Typography>
       </CardContent>
