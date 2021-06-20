@@ -15,7 +15,6 @@ function App() {
           backgroundPosition: 'center',
         }}
       >
-        hi
         <div
           style={{
             backgroundColor: 'rgba(245,245,245,0.4)',
