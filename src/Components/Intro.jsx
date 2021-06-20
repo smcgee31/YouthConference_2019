@@ -17,7 +17,8 @@ export default () => {
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           The Stake will provide dinner on Wednesday evening and Saturday morning. All other meals
-          will be by each Ward on their own.
+          will be assigned to a Ward or two to feed the whole camp, this way as a Ward you will only
+          have to cook ONE meal and can use the Stake cooking stoves to do so.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           <strong>!! FIRE UPDATE !!</strong> The camp has approved fire rings so we can have
