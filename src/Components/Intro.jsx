@@ -12,8 +12,8 @@ export default () => {
           <a href="#location">bottom</a> of the page.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          We will be meeting at the church at 5:00 PM on Wednesday the 23rd of June and returning
-          Saturday the 26th around noon.
+          We will be meeting at the Stake Center at 5:00 PM on Wednesday the 23rd of June and
+          returning Saturday the 26th around noon.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           The Stake will provide dinner on Wednesday evening and Saturday morning. All other meals
