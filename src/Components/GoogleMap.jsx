@@ -5,7 +5,6 @@ import { Paper, Typography } from '@material-ui/core';
 const MapContainer = (props) => {
   const [showingInfoMarker, setShowingInfoMarker] = useState(false);
   const [activeMarker, setActiveMarker] = useState({});
-  const [selectedPlace, setSelectedPlace] = useState({});
 
   const onMarkerClick = (props, marker, e) => {
     setSelectedPlace(props);
