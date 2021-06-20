@@ -7,7 +7,6 @@ const MapContainer = (props) => {
   const [activeMarker, setActiveMarker] = useState({});
 
   const onMarkerClick = (props, marker, e) => {
-    setSelectedPlace(props);
     setActiveMarker(marker);
     setShowingInfoMarker(true);
   };
