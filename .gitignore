@@ -78,4 +78,4 @@ typings/
 .next
 
 # IDE
-/vscode/settings
+.vscode
