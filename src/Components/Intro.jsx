@@ -8,7 +8,7 @@ export default () => {
       <CardContent style={{ marginLeft: 12 }}>
         <Typography style={{ marginBottom: 16 }}>
           This camp will be for all young men in the Stake. All deacons, teachers and priests are
-          invited to participate. The location details are found at the{' '}
+          invited to participate. The location details and map are found at the{' '}
           <a href="#location">bottom</a> of the page.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
