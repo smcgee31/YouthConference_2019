@@ -34,6 +34,9 @@ export default () => {
           Young Men's Presidency are highly impressed with their desire for good wholesome
           activities including their desire for several spiritual activities.
         </Typography>
+        <Typography style={{ marginBottom: 16 }}>
+          The current head count for camp is Youth: 42, Adults: 20, Total: 62 brave souls!
+        </Typography>
         <Typography style={{ marginBottom: -20 }}>* check back often for updates</Typography>
       </CardContent>
     </Card>
