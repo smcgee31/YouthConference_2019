@@ -21,6 +21,11 @@ export default () => {
           have to cook ONE meal and can use the Stake cooking stoves to do so.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
+          The Stake leaders will provide all the cooking equipment. There will be 3 camp stoves with
+          3 propane tanks and a griddle. There will also be all the cooking implements, mixing bowls
+          and paper products and some washing buckets for clean up.
+        </Typography>
+        <Typography style={{ marginBottom: 16 }}>
           <strong>!! FIRE UPDATE !!</strong> The camp has approved fire rings so we can have
           campfires but it will be only with adult leader discretion and supervision.
         </Typography>
@@ -35,7 +40,7 @@ export default () => {
           activities including their desire for several spiritual activities.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          The current head count for camp is Youth: 42, Adults: 20, Total: 62 brave souls!
+          The current head count for camp is Youth: 43, Adults: 20, Total: 62 brave souls!
         </Typography>
         <Typography style={{ marginBottom: -20 }}>* check back often for updates</Typography>
       </CardContent>
