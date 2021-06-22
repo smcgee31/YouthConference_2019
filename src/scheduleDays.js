@@ -12,7 +12,7 @@ const scheduleDays = {
   thu: [
     createData('8:AM', 'Breakfast by 6th & 8th Wards'),
     createData('meal:', 'pancakes, scrambled eggs, hashbrowns'),
-    createData('9:AM', 'Hike Left Fork Days Canyon Trail'),
+    createData('9:AM', 'Hike Left Fork Days Canyon Trail (back in time for lunch)'),
     createData('10:AM', ' Scavenger hunt during hike (details to be provided)'),
     createData('12:PM', 'Lunch by 4th Ward'),
     createData('meal:', 'sandwiches and chips'),
@@ -20,16 +20,17 @@ const scheduleDays = {
     createData('2:PM', 'Down time for games at camp'),
     createData('5:PM', 'TikTok Skit Challenge (Theme: New Perspectives)'),
     createData('6:PM', 'Dinner by 9th Ward'),
-    createData('meal:', 'tinfoil dinners'),
+    createData('meal:', 'pizza'),
     createData('7:PM', "Capture the Flag at Jolley's Park"),
     createData('8:PM', 'Fireside by Bro. Chamberlin'),
   ],
   fri: [
     createData('8:AM', 'Breakfast by 3rd Ward'),
     createData('meal:', 'breakfast burritos'),
-    createData('9:AM', 'Fishing & Swimming at Bartholomew park'),
+    createData('9:AM', 'Activities'),
+    createData('', 'Fishing & Swimming at Bartholomew park, with a pavilion for shade'),
     createData('12:PM', 'Lunch by 10th Ward'),
-    createData('meal:', 'campfire nachos'),
+    createData('meal:', 'sandwiches and chips'),
     createData(
       '1:PM',
       'Service Project (Cleaning up the Police Shooting Range in Hobble Creek Canyon)'
