@@ -42,7 +42,7 @@ export default () => {
           activities including their desire for several spiritual activities.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          The current head count for camp is Youth: 43, Adults: 20, Total: 62 brave souls!
+          The current head count for camp is Youth: 43, Adults: 20, Total: 63 brave souls!
         </Typography>
         <Typography style={{ marginBottom: -20 }}>* check back often for updates</Typography>
       </CardContent>
