@@ -26,12 +26,14 @@ export default () => {
           and paper products and some washing buckets for clean up.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          <strong>!! FIRE UPDATE !!</strong> The camp has approved fire rings so we can have
-          campfires but it will be only with adult leader discretion and supervision.
+          <strong>🔥🔥 FIRE UPDATE 6/21</strong> The camp does have approved fire rings and after
+          counseling with President Buie it has been decided that due to the extreme dryness this
+          year, as a group we will only have charcoal as campfires and that should be done with
+          adult leader supervision at all times and a bucket of water nearby.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          <strong>!! WATER UPDATE !!</strong> Bring water containers and some water but there are
-          water spigots at the campsite for us to use.
+          Bring water containers and some water but there are water spigots at the campsite for us
+          to use.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           The daily schedule is below and will give you an idea of how each day will likely proceed.

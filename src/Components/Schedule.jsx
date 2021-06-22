@@ -16,7 +16,7 @@ export default () => {
   };
 
   const wed = [
-    createData('5:PM', 'Meet at the Stake Center (leave as soon as everyone is ready!)'),
+    createData('5:PM', 'Meet at the Stake Center with Permission forms'),
     createData('7:PM', 'Dinner provided by the Stake'),
     createData('meal:', 'hot dogs/brats, potato salad, chips, smores'),
     createData('8:PM', 'Fireside by President Gilbert'),
