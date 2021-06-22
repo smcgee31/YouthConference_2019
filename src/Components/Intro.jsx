@@ -26,10 +26,16 @@ export default () => {
           and paper products and some washing buckets for clean up.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
-          <strong>🔥🔥 FIRE UPDATE 6/21</strong> The camp does have approved fire rings and after
-          counseling with President Buie it has been decided that due to the extreme dryness this
-          year, as a group we will only have charcoal as campfires and that should be done with
-          adult leader supervision at all times and a bucket of water nearby.
+          <strong>
+            <span role="img" aria-label="fire update">
+              🔥🔥
+            </span>{' '}
+            FIRE UPDATE 6/21
+          </strong>{' '}
+          The camp does have approved fire rings and after counseling with President Buie it has
+          been decided that due to the extreme dryness this year, as a group we will only have
+          charcoal as campfires and that should be done with adult leader supervision at all times
+          and a bucket of water nearby.
         </Typography>
         <Typography style={{ marginBottom: 16 }}>
           Bring water containers and some water but there are water spigots at the campsite for us
